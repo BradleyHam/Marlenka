@@ -17,7 +17,7 @@ function Contact() {
         <div className="text flex-1 mr-10">
             <h2 className="">Contact</h2>
             <h3>Experience the sweetness of connection</h3>
-            <p className='pt-4'>"We're thrilled to have you as part of our honey cake family. At Marlenka Honey Cake, New Zealand, every cake we bake is not just a recipe but a symbol of our shared love for authentic, delicious, and soulful flavours. Our team is always eager to hear from you, to understand your experiences, your feedback, and any unique way you've enjoyed our honey cake. Please feel free to share your thoughts, your honey cake moments, or any queries you might have. All you need to do is fill in your details below and we promise to get back to you with the warm hospitality that our Marlenka family is known for. Let's keep the conversation as sweet as our cakes!"</p>
+            <p className='pt-4'> We&apos;re thrilled to have you as part of our honey cake family. At Marlenka Honey Cake, New Zealand, every cake we bake is not just a recipe but a symbol of our shared love for authentic, delicious, and soulful flavours. Our team is always eager to hear from you, to understand your experiences, your feedback, and any unique way you&apos;ve enjoyed our honey cake. Please feel free to share your thoughts, your honey cake moments, or any queries you might have. All you need to do is fill in your details below and we promise to get back to you with the warm hospitality that our Marlenka family is known for. Let&apos;s keep the conversation as sweet as our cakes!</p>
         </div>
         <form className="bg-gray-100 xl:w-[500px] w-[100%] rounded p-6 pb-8 mb-4 mt-8 xl:mt-0 xl:ml-10" onSubmit={handleSubmit}>
                     <div className="mb-4">
