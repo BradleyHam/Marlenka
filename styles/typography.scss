@@ -1,0 +1,68 @@
+$text-color-primary: #7e0e06;
+$text-color-secondary: #4d4f5c;
+$text-color-tertiary: #663300;
+
+@font-face {
+    font-family: 'Miller Display Regular';
+    src: url('../assets/Miller\ Display\ Regular.otf') format('opentype');
+  }
+
+h1{
+    font-family: 'Miller Display Regular', serif;
+    color: $text-color-secondary;
+    font-size: 31.25px;
+    
+    @media(max-width: 768px){
+        font-size: 28px;
+    }
+    @media screen and (max-width: 480px){
+        font-size: 24px; 
+    }
+}
+h2{
+    font-family: 'lato', serif;
+    color: $text-color-secondary;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    @media screen and (min-width: 480px){
+        font-size: 14px; 
+    }
+    @media(min-width: 768px){
+        font-size: 18px;
+    }
+  
+}
+h3{
+    font-family: 'Miller Display Regular', serif;
+    color: $text-color-secondary;
+    font-weight: 200;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+h4{
+    font-family: 'Lato', serif;
+    color: #F3DCAA;
+    font-size: 18px;
+}
+h5{
+    font-weight: 200;
+    font-family: 'Lato';
+    color: $text-color-secondary;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    color: $text-color-secondary;
+    letter-spacing: 1px;
+    font-weight: 300;
+    opacity: .6;
+    @media(max-width: 768px){
+        font-size: 14px;
+    }
+    @media screen and (max-width: 480px){
+        font-size: 12px; 
+    }
+  
+}

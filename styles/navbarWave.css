@@ -1,0 +1,19 @@
+.navbar{
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.074);
+ 
+}
+.navbar::after{
+    position: absolute;
+    bottom: -10px;
+    content: "";
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 10;
+    height: 10px;
+    display: block;
+    background-size: cover;
+    background-image: url('../public/Images/Wave.svg');
+    background-position: center bottom;
+ 
+}

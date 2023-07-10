@@ -1,0 +1,32 @@
+
+.hero-image-container{ 
+    position: relative;
+    background: url('../public/Images/HoneyCake.jpeg') no-repeat;
+    background-position: 300px center; /* Adjust as needed */
+    background-size: cover;
+}
+.hero-image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #7e0e06 0%, rgba(126, 14, 6, 1) 30%,rgba(126, 14, 6, .85) 100%);
+}
+@media screen and (max-width: 900px) {
+    .hero-image-container{ 
+        background-position:  center; 
+        background-size: cover;
+      
+    }
+    .hero-image-container::before {
+        background: linear-gradient(to right, #7e0e06 0%, rgba(126, 14, 6, .90) 30%,rgba(126, 14, 6, .95) 100%);
+   
+    }
+  }
+
+
+/* 
+background: linear-gradient(to right, #7e0e06 0%, rgba(126, 14, 6, 1) 30%,rgba(126, 14, 6, .85) 100%), url('../public/Images/HoneyCake.jpeg') no-repeat 300px -100px;
+background-size: 100%; */
