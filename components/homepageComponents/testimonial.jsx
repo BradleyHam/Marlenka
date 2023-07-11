@@ -9,7 +9,7 @@ function Testimonial({customerName, customerJob, testimonial, face}) {
       <div className='bg-white absolute top-[-15px] left-[14px]'>
          <ImQuotesLeft size='2em' color='#4d4f5c' opacity='.3'/>
       </div>
-        <p className='p-8 text-sm h-[150px]'>{testimonial}</p>
+        <p className='p-8 h-[200px] '>{testimonial}</p>
         <div className='p-6 linearGradientOne flex justify-between'>
             <div className="textSide">
                 <p className='font-sans uppercase font-bold'>{customerName}</p>

@@ -24,14 +24,14 @@ function EmailForm(props) {
       };
     
   return (
-    <form onSubmit={handleSubmit} className={`relative  mt-3 ${props.hero && 'md:w-[500px]'} ${props.lightBackground && 'border rounded-md'}`}>
+    <form onSubmit={handleSubmit} className={`relative  mt-3 ${props.hero && 'md:w-[500px]'} ${props.lightBackground && 'border border-gray-400 rounded-md'}`}>
     <input
         type="email"
         placeholder="Enter your email..."
         value={email}
         onChange={handleChange}
         required
-        className={`w-full px-3 py-3 placeholder-gray-400 text-sm rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500`}
+        className={`w-full px-3 py-3 placeholder-gray-600 text-sm rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500`}
     />
     <button 
         type="submit" 

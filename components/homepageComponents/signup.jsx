@@ -22,7 +22,7 @@ function SignUp() {
                         </div>
                     <div>
                         <h2 className='uppercase font-bold'>first to know</h2>
-                        <p className='opacity-50'>Be the pioneer in savouring new delights</p>
+                        <p>Be the pioneer in savouring new delights</p>
                     </div>
                 </div>
                 <div className='flex items-center pt-4'>
@@ -31,7 +31,7 @@ function SignUp() {
                         </div>
                     <div>
                         <h2 className='uppercase font-bold'>exclusive discounts</h2>
-                        <p className='opacity-50'>Unlock special savings on your first order</p>
+                        <p className=''>Unlock special savings on your first order</p>
                     </div>
                 </div>
             </div>
