@@ -8,7 +8,7 @@ function Introduction() {
         {/* <img src="./Images/honeyCakeInBox.jpeg" alt="" className="pb-16 object-contain height=[500px] z-10 pt-6 xl:hidden" /> */}
         <div className="pb-16 z-10 pt-6 xl:hidden">
             <Image 
-              src="/Images/honeyCakeInBox.jpeg"
+              src="/Images/HoneyCakeInBox.jpeg"
               alt="Honey Cake in Box"
               height={500}
               width={500}
