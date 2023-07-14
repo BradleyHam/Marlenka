@@ -23,10 +23,10 @@ function Introduction() {
             {/* <img src="./Images/honeyCakeInBox.jpeg" alt="" className="pb-16 object-contain height=[500px] z-10 pt-6 hidden xl:block" /> */}
             <Image
             className="pb-16 object-contain z-10 pt-6 hidden xl:block"
-        src="/Images/honeyCakeInBox.jpeg" // Path of your image
-        alt="Description of the image"  // Alternate text for the image
-        height={500}  // Height of the image
-        width={600}
+            src="/Images/HoneyCakeInBox.jpeg" // Path of your image
+            alt="Description of the image"  // Alternate text for the image
+            height={500}  // Height of the image
+            width={600}
       />
           </div>
         </div>
