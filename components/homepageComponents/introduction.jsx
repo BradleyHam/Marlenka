@@ -1,8 +1,7 @@
 import React from 'react'
-import useFadeInOnScroll from '../../Javascript/useFadeOnScroll'
+import Image from 'next/image'
 
 function Introduction() {
-  useFadeInOnScroll('.fade-in');
 
   return (
     <div className='px-4 sm:px-8 md:px-16 lg:px-32 py-32 border-b-2'>
@@ -20,8 +19,15 @@ function Introduction() {
             </p>
             </div>
           </div>
-          <div className=" fade-in right-side flex items-center justify-center flex-1 relative">
-            <img src="./Images/honeyCakeInBox.jpeg" alt="" className="pb-16 object-contain height=[500px] z-10 pt-6 hidden xl:block" />
+          <div className="right-side flex items-center justify-center flex-1 relative">
+            {/* <img src="./Images/honeyCakeInBox.jpeg" alt="" className="pb-16 object-contain height=[500px] z-10 pt-6 hidden xl:block" /> */}
+            <Image
+            className="pb-16 object-contain z-10 pt-6 hidden xl:block"
+        src="/Images/honeyCakeInBox.jpeg" // Path of your image
+        alt="Description of the image"  // Alternate text for the image
+        height={500}  // Height of the image
+        width={600}
+      />
           </div>
         </div>
     </div>
