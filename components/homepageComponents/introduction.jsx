@@ -6,15 +6,25 @@ function Introduction() {
   return (
     <div className='px-4 sm:px-8 md:px-16 lg:px-32 py-32 border-b-2'>
         {/* <img src="./Images/honeyCakeInBox.jpeg" alt="" className="pb-16 object-contain height=[500px] z-10 pt-6 xl:hidden" /> */}
-            <div className='xl:hidden'> 
-                <Image
-                  className="pb-16 object-contain z-10 pt-6"
+        <div className="pb-16 z-10 pt-6 xl:hidden">
+            <Image 
+              src="/Images/honeyCakeInBox.jpeg"
+              alt="Honey Cake in Box"
+              height={500}
+              width={500}
+              objectFit="contain"
+              className='mx-auto'
+            />
+        </div>
+
+                {/* <Image
                   src="/Images/HoneyCakeInBox.jpeg" // Path of your image
                   alt="Description of the image"  // Alternate text for the image
-                  height={500}  // Height of the image
-                  width={600}
-                />
-             </div> 
+                  height={500}
+                  width={500}
+              /> */}
+    
+
           <h2>about</h2>
           <h3>A Timeless Taste Of Tradition</h3>
         <div className='flex flex-col xl:flex-row xl:items-center relative'>
