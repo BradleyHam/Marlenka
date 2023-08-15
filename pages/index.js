@@ -1,5 +1,5 @@
 import React from 'react'
-import { client } from '../lib/client'
+import Stripe from 'stripe'
 import { HeroBanner, ValuePropositions, Introduction, BestSellers, Testimonials, CertificationStamps, SignUp, Wholesale, Contact, Footer } from '../components'
 
 
@@ -32,19 +32,15 @@ const Home = ({products, bannerData}) => {
   )
 }
 
-export const getServerSideProps = async () => {
-    const query = '*[_type == "product"]';
-    const products = await client.fetch(query);
+export const GetServerSideProps = async () => {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_TEST);
+  const product = await stripe.products.retrieve('prod_OSBsZlviKSJ6FT');
 
-    const bannerQuery = '*[_type == "banner"]';
-    const bannerData = await client.fetch(bannerQuery);
-
-    return {
-      props:{
-        products,
-        bannerData
-      }
+  return{
+    props: {
+      product
     }
+  }
 }
 
 export default Home

@@ -13,7 +13,7 @@ function Contact() {
         // Here you can handle your form submission logic
     }
   return (
-    <div className='px-4 sm:px-8 md:px-16 lg:px-32 py-32 border-t-2 flex flex-col xl:flex-row w-[100vw]'>
+    <div className='px-4 sm:px-8 md:px-16 lg:px-32 py-32 border-t-2 flex flex-col xl:flex-row w-[100vw] bg-[#f3dcaa24]'>
         <div className="text flex-1 mr-10">
             <h2 className="">Contact</h2>
             <h3>Experience the sweetness of connection</h3>

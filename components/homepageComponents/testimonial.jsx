@@ -5,9 +5,9 @@ import { AiFillStar } from 'react-icons/ai'
 function Testimonial({customerName, customerJob, testimonial, face}) {
 
   return (
-    <div className='w-[370px] w-full border rounded-lg relative '>
-      <div className='bg-white absolute top-[-15px] left-[14px]'>
-         <ImQuotesLeft size='2em' color='#4d4f5c' opacity='.3'/>
+    <div className='w-[370px] w-full border rounded-lg relative bg-white '>
+      <div className=' absolute top-[-15px] left-[14px]'>
+         <ImQuotesLeft size='2em' color='#4d4f5c' opacity='.3' className='bg-transparent'/>
       </div>
         <p className='p-8 h-[200px] '>{testimonial}</p>
         <div className='p-6 linearGradientOne flex justify-between'>

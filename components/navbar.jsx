@@ -21,7 +21,7 @@ const Navbar = () => {
   const [ mobileNavActive, setMobileNavActive ] = useState(false);
 
   return (
-    <div className="py-4 navbar">
+    <div className="py-4 navbar z-50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">
 
