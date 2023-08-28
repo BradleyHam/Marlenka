@@ -51,9 +51,9 @@ const Product = () => {
         };
       
         const smallImages = [
+          '/Images/HoneyCakeProductImage2.webp',
           '/Images/MarlenkaCakeInBox2.jpeg',
           '/Images/MarlenkaBoxBetterQuality.jpg',
-          '/Images/HoneyCakeProductImage2.webp',
           '/Images/HoneyCakeProductImage1.webp',
           '/Images/certificationStamps/greatTaste.png'
         ];
