@@ -5,7 +5,7 @@ import EmailForm from '../emailForm'
 
 function SignUp() {
   return (
-    <div className='py-32 px-4 sm:px-8 md:px-16 lg:px-32 border-b-2 bg-[#f3dcaa24]'>
+    <div className='py-32 px-4 sm:px-8 md:px-16 lg:px-32 bg-white'>
         <div>
             <h2 className='uppercase'>sign up</h2>
             <h3>Join the Marlenka Family</h3>

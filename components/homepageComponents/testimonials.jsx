@@ -4,7 +4,7 @@ import Testimonial from './testimonial';
 function testimonials() {
 
   return (
-    <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-32 border-b-2 relative bg-[#f3dcaa24]">
+    <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-32 relative bg-[#f3dcaa24]">
         <h2 className=''>Testimonials</h2>
         <h3>Sweet Praise from our  Happy Customers</h3>
     <div className=' flex flex-col xl:flex-row justify-between space-y-10 xl:space-y-0 xl:space-x-4  items-center pt-12'>

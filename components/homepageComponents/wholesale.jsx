@@ -3,7 +3,7 @@ import Button from '../button'
 
 function Wholesale() {
   return (
-    <div className='py-32 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-0'>
+    <div className='py-32 px-4 sm:px-8 md:px-16 lg:px-32 xl:px-0 bg-[#f3dcaa24]'>
         <div className="content flex items-center flex-col xl:flex-row items-start">
             <img className='w-full xl:w-[400px] pb-12 xl:pb-0' src="/Images/Wholesale.jpeg" alt="" />
             <div className='xl:p-32'>

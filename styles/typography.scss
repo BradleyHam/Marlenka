@@ -95,3 +95,18 @@ p{
     }
   
 }
+li{
+    font-family: 'Raleway', sans-serif;
+    color: $text-color-secondary;
+    letter-spacing: 1px;
+    font-weight: 300;
+    opacity: .7;
+    list-style-type: disc; 
+    @media(max-width: 768px){
+        font-size: 14px;
+        opacity: .8;
+    }
+    @media screen and (max-width: 480px){
+        font-size: 14px; 
+    }
+}

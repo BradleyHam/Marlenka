@@ -41,9 +41,8 @@ const Footer = () => {
             </div>
             </div>
             <div className="EmailForm flex pt-8 ">
-                <div className='w-[100%]'>
-                    <p className='text-feature-color font-light opacity-100'>Join Our VIP    List for <strong className=''>Exclusive Pre-Launch Offers’</strong>
-                      and <br /> Be Among the First to<strong> Enjoy Marlenka </strong>in<strong> New Zealand!</strong></p>
+                <div className='w-[500px]'>
+                    <p className='text-feature-color font-light opacity-100'>Join Our VIP List for <strong className=''>Exclusive Offers</strong></p>
                 <EmailForm />
                  </div>
             </div>

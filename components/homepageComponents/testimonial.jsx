@@ -5,7 +5,7 @@ import { AiFillStar } from 'react-icons/ai'
 function Testimonial({customerName, customerJob, testimonial, face}) {
 
   return (
-    <div className='w-[370px] w-full border rounded-lg relative bg-white '>
+    <div className='w-[370px] w-full shadow rounded-lg relative bg-white '>
       <div className=' absolute top-[-15px] left-[14px]'>
          <ImQuotesLeft size='2em' color='#4d4f5c' opacity='.3' className='bg-transparent'/>
       </div>
