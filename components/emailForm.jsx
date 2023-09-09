@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { IoIosSend } from 'react-icons/io';
+import { db } from '@/lib/firebase';
+import { collection, addDoc } from "firebase/firestore";
 
 function EmailForm(props) {
     const [email, setEmail] = useState('');
@@ -8,11 +10,18 @@ function EmailForm(props) {
         setEmail(event.target.value);
       };
 
-      const handleSubmit = (event) => {
+      const handleSubmit = async (event) => {
         event.preventDefault();
         if (validateEmail(email)) {
           alert('Email is submitted');
-          // Insert your logic here to handle the email
+          try {
+            const docRef = await addDoc(collection(db, "users"), {
+              email: email
+            });
+            console.log("Document written with ID: ", docRef.id);
+          } catch (e) {
+            console.error("Error adding document: ", e);
+          }
         } else {
           alert('Please enter a valid email');
         }
@@ -22,6 +31,13 @@ function EmailForm(props) {
         const re = /\S+@\S+\.\S+/;
         return re.test(email);
       };
+
+      // const addEmail = async (email) => {
+      //   await db.collection("emails").add({
+      //     email,
+      //     timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      //   });
+      // };
     
   return (
     <form onSubmit={handleSubmit} className={`relative  mt-3 ${props.hero && 'md:w-[500px]'} ${props.lightBackground && 'border border-gray-400 rounded-md'}`}>

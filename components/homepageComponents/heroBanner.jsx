@@ -41,7 +41,7 @@ const HeroBanner = ({product}) => {
             <div className='hero-text z-10'>
                 <h2 className=' text-feature-color p-0'>Experience Marlenkas</h2>
                 <h1 className='light text-feature-color '>Unforgetable Honey Cakes</h1>
-                <p className='text-feature-color mt-6 font-light opacity-90 w-[500px]'> Savor the rich harmony of honey and tradition in every bite. Marlenka&apos;s Honey Cake is not just a dessert, it&apos;s an invitation to indulge in timeless pleasure
+                <p className='text-feature-color mt-6 font-light opacity-90 m-w-[500px]'> Savor the rich harmony of honey and tradition in every bite. Marlenka&apos;s Honey Cake is not just a dessert, it&apos;s an invitation to indulge in timeless pleasure
                </p>
                 <div className="hero-stamps flex opacity-1 mt-10">
                     <button onClick={()=> handleBuyNow(1)} className='bg-feature-color text-primary-color font-bold uppercase px-6 rounded mr-6'>
